@@ -14,6 +14,11 @@ This script automates the creation of new Python project folders with:
 
 When you run the script, it creates a structure like:
 
+## 📂 Directory Structure
+
+When you run the script, it creates a structure like:
+
+```text
 /opt/python/<project_name>/
 ├── venv/
 ├── main.py
@@ -21,6 +26,7 @@ When you run the script, it creates a structure like:
 ├── .vscode/
 │   ├── settings.json     ← from settings.json.txt
 │   └── tasks.json        ← from tasks.json.txt
+
 
 ## 🚀 Usage
 
