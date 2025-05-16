@@ -1,0 +1,14 @@
+{
+  "python.defaultInterpreterPath": "venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "terminal.integrated.defaultProfile.linux": "venv-activated",
+  "terminal.integrated.profiles.linux": {
+    "venv-activated": {
+      "path": "/bin/bash",
+      "args": [
+        "-c",
+        "source ./venv/bin/activate && exec bash"
+      ]
+    }
+  }
+}

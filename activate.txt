@@ -1,0 +1,6 @@
+
+### Setup API codes ###
+API_Path="/mnt/onedrive/Python"
+export OPENAI_API_KEY="$(cat $API_Path/openai.api.key.txt)"
+export PROMPT_COMMAND='PS1="($(basename $VIRTUAL_ENV))\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "'
+
