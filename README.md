@@ -26,7 +26,7 @@ When you run the script, it creates a structure like:
 ├── .vscode/
 │   ├── settings.json     ← from settings.json.txt
 │   └── tasks.json        ← from tasks.json.txt
-
+```
 
 ## 🚀 Usage
 
