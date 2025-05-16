@@ -59,7 +59,7 @@ which python
 
 It should return something like:
 
-/opt/python/<project>/venv/bin/python
+/opt/python/project_name/venv/bin/python
 
 Your prompt should also begin with (venv) if configured correctly.
 
